@@ -8,7 +8,7 @@ const AddTaskForm=({newTask,setNewTask,addTask})=>{
        value={newTask}
        onChange={(e)=>setNewTask(e.target.value)}
        
-       className="form-control form-control-lg"></input>
+       className="form-control form-control-lg" required></input>
        {console.log(newTask)}
      </div>
      <div className="col-auto">
